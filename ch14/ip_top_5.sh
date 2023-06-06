@@ -1,0 +1,1 @@
+awk -F "[ ]" '{print $1}' ./access_sample.log | uniq -c | sort -k1nr | head -5

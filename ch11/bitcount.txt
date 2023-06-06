@@ -1,0 +1,8 @@
+SETBIT checklog_1906 1 1
+SETBIT checklog_1906 5 1
+SETBIT checklog_1906 6 1
+SETBIT checklog_1906 7 1
+SETBIT checklog_1906 8 1
+SETBIT checklog_1906 12 1
+SETBIT checklog_1906 18 1
+BITCOUNT checklog_1906

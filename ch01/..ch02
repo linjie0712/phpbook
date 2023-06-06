@@ -1,0 +1,13 @@
+<?php
+var_dump(0 == TRUE);         // bool(false)
+var_dump(1 == TRUE);         // bool(true)
+var_dump(-1 == TRUE);        // bool(true)
+var_dump(0.0 == TRUE);     // bool(false)
+var_dump(1.0 == TRUE);     // bool(true)
+var_dump(1.0e2 == TRUE);     // bool(true)
+var_dump("" == TRUE);        // bool(false)
+var_dump("0" == TRUE);        // bool(false)
+var_dump("test" == TRUE);     // bool(true)
+var_dump("false" == TRUE);   // bool(true)
+var_dump(array(1,2) == TRUE); // bool(true)
+var_dump(array() == TRUE);   // bool(false)
